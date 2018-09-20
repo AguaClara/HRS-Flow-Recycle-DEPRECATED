@@ -1,9 +1,13 @@
-# High Rate Sedimentation
-**This repository for the AguaClara High Rate Sedimentation team.**
+# High Rate Sedimentation: Flow Recycle
+**This repository for the AguaClara High Rate Sedimentation: Flow Recycle team.**
 
 ### Objectives
 1. Build on the work of the Fall 2017 team to determine the cause of floc blanket degradation.
 2. Explore the effects of varied sedimentation tank geometry on effluent turbidity at high upflow velocities
+
+### Fall 2018
+ * Justin Conneely (jtc284@cornell.edu)
+ * Leena Sen (lps57@cornell.edu)
 
 ### Summer 2018
  * Anna Hong (ah778@cornell.edu)
