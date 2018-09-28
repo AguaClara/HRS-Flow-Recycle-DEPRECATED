@@ -10,7 +10,9 @@ Sedimentation is the process through which coagulated contaminant particles are 
 
 In the AguaClara lab, the sedimentation tank's plate settlers are simulated by section of plastic PVC piping called the tube settler. The secion of tube wherein the floc blanket forms is referred to as the "recirculator" by the HRS teams. Since the behavior of a section of fluid is representative of the entire tank, tubing can be used to simulate a simple pathway in the reactor. This allows for a practical method of experimentation on a smaller scale. See figure 1 for a visual comparison of the sedimentation tank in an AguaClara plant to the sedimentation tank in lab.
 
-![SedimentationTank](https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Figure%201.JPG)
+
+![SedTank](https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Lab%20vs%20Plant%20Sed%20Tanks.JPG?raw=true)
+
 Figure 1: Comparison of sedimentation tank in an AguaClara plant vs. in an AguaClara lab.
 
 The HRS teams aim to design a tank that will yield an effluent of no more than 0.3 NTU while maintaining high upflow velocity. Operating at a higher upflow velocity will allow us to process more water in a given period of time, which will decrease plant operating costs. However, when operating at a high upflow velocity in lab, the floc blanket is unstable. The floc blanket is dense near the top of the recirculator, but very thin near the bottom. HRS: Flow Recycle hopes to remediate this issue by installing a recycle line. This will allow future teams to continue researching the potential viability of high upflow velocities in AguaClara plants.
