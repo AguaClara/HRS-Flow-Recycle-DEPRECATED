@@ -1,4 +1,4 @@
-#High Rate Sedimentation: Flow Recycle, Fall 2018
+# High Rate Sedimentation: Flow Recycle, Fall 2018
 #### Justin Conneely and Leena Sen
 #### September 28th, 2018
 
