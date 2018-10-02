@@ -5,7 +5,7 @@
 1. Build on the work of the Fall 2017 team to determine the cause of floc blanket degradation.
 2. Explore the effects of varied sedimentation tank geometry on effluent turbidity at high upflow velocities
 
-### Fall 2018
+### Fall 2018 (HRS: Flow Recycle - [Go Here for HRS: Bottom Geometry] (https://github.com/AguaClara/HRS-Bot-Geo))
  * Justin Conneely (jtc284@cornell.edu)
  * Leena Sen (lps57@cornell.edu)
 
