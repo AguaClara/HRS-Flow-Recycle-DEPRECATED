@@ -9,6 +9,8 @@
  * Justin Conneely (jtc284@cornell.edu)
  * Leena Sen (lps57@cornell.edu)
 
+[Symposium Presentation](https://docs.google.com/presentation/d/1LHdeoGCIF5z6OcvkxYyBDmnycIgQTOnAuKEvIjzzXBo/edit#slide=id.g452f687920_1_41)
+
 ### Summer 2018
 [Symposium Presentation](https://docs.google.com/presentation/d/1ikR3Ti14HijdFI1jzeJO_98PFFImXd8VALmxmuq5RYY/edit#slide=id.g3d6a81edfb_7_36) (See "Floc-Sed-Filt") </br>
 [Final Presentation](https://docs.google.com/presentation/d/1Y5UBNxv1-TP58IkcFZ9gPKQVf0p5gSwH7IcihIZMOdo/edit?usp=sharing) </br>
