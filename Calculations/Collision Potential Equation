@@ -1,0 +1,2 @@
+
+.. math:: CP_{fb} \propto \frac{C_{plant} + C_{recycle}\Pi_{recycle}}{\left(1+\Pi_{recycle}-\frac{v_{hindered}}{v_{up}}\right)\left( 1 + \Pi_{recycle} \right)}  \frac{H_{fb}v_{hindered}} {v_{up}}
