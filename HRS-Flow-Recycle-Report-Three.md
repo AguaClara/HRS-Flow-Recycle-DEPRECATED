@@ -1,15 +1,21 @@
 # High Rate Sedimentation: Flow Recycle, Fall 2018
 #### Justin Conneely and Leena Sen
 
+[EM: Hi FlowRe! I will be putting my comments in brackets below the paragraph in which I am referring to. Thanks!]
+
 #### October 26th, 2018
 
 ## Abstract
-Previous High Rate Sedimentation (HRS) teams have observed that at higher upflow velocities, the floc blanket is much more dense at the top of the recirculator than at the bottom. Because of this, they have hypothesized that installing a recycle line from the top of the recirculator to the bottom of the recirculator will improve floc blanket longevity and increase overall reactor performance. The Fall 2018 team has run a baseline experiments, and has begun to fabricate the flow recycle system. In the future, the team will test the recycle system at varying angles of entry into the recirculator and at various upflow velocities. [Very clear abstract! Explains what the goal is and why the team exists!]
+Previous High Rate Sedimentation (HRS) teams have observed that at higher upflow velocities, the floc blanket is much more dense at the top of the recirculator than at the bottom. Because of this, they have hypothesized that installing a recycle line from the top of the recirculator to the bottom of the recirculator will improve floc blanket longevity and increase overall reactor performance. The Fall 2018 team has run a baseline experiments, and has begun to fabricate the flow recycle system. In the future, the team will test the recycle system at varying angles of entry into the recirculator and at various upflow velocities.
+
+[EM: Fix grammatical mistakes.]
 
 ## Introduction
 Sedimentation is the process by which coagulated contaminant particles are removed from water via gravitational settling. In a sedimentation tank, water flows upward as the flocs settle downward. Those flocs settle into a "floc blanket" at the bottom of the sedimentation tank. A floc blanket is a fluidized bed of suspended solids with a high rate of collisions. The particles in the floc blanket collide with coagulant particles and other flocs, coming together to form heavier flocs that settle to the basin of the recirculator, which still remains as part of the floc blanket. This process cleans the water, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
 
-In the AguaClara lab, the sedimentation tank's plate settlers are simulated by section of plastic PVC piping called the tube settler. The section of tube where the floc blanket forms is referred to as the "recirculator" by the HRS teams. Since the behavior of a section of fluid is representative of the entire tank, tubing can be used to simulate a simple pathway in the reactor. This allows for a practical method of experimentation on a smaller scale. See figure 1 for a visual comparison of the sedimentation tank in an AguaClara plant to the sedimentation tank in lab.
+[EM: Part of the sentence that reads "which still reamins as part of the floc blanket.." is unclear what is being referred to.]
+
+In the AguaClara lab, the sedimentation tank's plate settlers are simulated by a section of plastic PVC piping called the tube settler. The section of tube where the floc blanket forms is referred to as the "recirculator" by the HRS teams. Since the behavior of a section of fluid is representative of the entire tank, tubing can be used to simulate a simple pathway in the reactor. This allows for a practical method of experimentation on a smaller scale. See Figure 1 for a visual comparison of the sedimentation tank in an AguaClara plant to the sedimentation tank in the lab.
 
 
 ![SedTank](https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Lab%20vs%20Plant%20Sed%20Tanks.JPG?raw=true)
@@ -17,6 +23,8 @@ In the AguaClara lab, the sedimentation tank's plate settlers are simulated by s
 Figure 1: Comparison of a sedimentation tank in an AguaClara plant and a sedimentation tank in the AguaClara lab.
 
 The HRS teams aim to design a tank that will yield an effluent of no more than 0.3 NTU while maintaining high upflow velocity. Operating at a higher upflow velocity will allow for greater water processing in a given period of time, which will decrease plant operating costs. However, when operating at a high upflow velocity in lab, the floc blanket is unstable. The floc blanket is dense near the top of the recirculator, but very thin near the bottom. HRS: Flow Recycle hopes to remediate this issue by installing a recycle line. This will allow future teams to continue researching the potential viability of high upflow velocities in AguaClara plants.
+
+[EM: Explain upflow velocity in terms of the tube settler. How does it compare to water or capture velocity? Maybe a graphic would help clarify (I know Monroe has some good ones in his notes :)).]
 
 ## Literature Review and Previous Work
 Several past researchers have studied the process of sedimentation and the properties floc blankets. Their research gives valuable insight to the Fall 2018 HRS: Flow Recycle Team's results. Culp et al. (1968) research different angles to find the optimal slope of the tube settlers. Using normal laboratory conditions, a 60 degree angle with respect to the horizontal provided continuous sludge removal while showing effective sedimentation performance. This information was used by the Fall 2017 team when designing the tube settler that is currently being used.
@@ -41,7 +49,9 @@ Figure 2: This is a photograph highlighting the pumps, stocks, and turbidimeters
 
 This system allows the team to model the water treatment process in a lab setting. The influent and effluent turbidimeters record the turbidity of the water entering and leaving the system. In order to run experiments, tap water is mixed with clay water. This is referred to as the influent. The influent is maintained at a constant turbidity of 100 NTU through ProCoDA's PID dosing control.
 
-After exiting the influent turbidimeter, the water enters the flocculator. Upon entering the flocculator, the water is dosed with the coagulant polyaluminum chloride (PAC). The coagulant pump controls how much of the coagulant stock enters the system. After choosing the desired dosage, the team uses a python markdown file to determine the ideal stock concentration. In conjunction with this, the markdown file returns the required coagulant pump RPM that goes with the desired stock concentration. Once the coagulant is added, the water then passes through the flocculator, which allows for the formation of flocs. Next, the flow  enters the bottom of the sedimentation tank. The effluent that exits through the top of the tube settler then flows through the effluent turbidimeter in order to find the turbidity of the effluent. After exiting  the effluent turbidimeter, the water then flows to the wasteline.
+After exiting the influent turbidimeter, the water enters the flocculator. Upon entering the flocculator, the water is dosed with the coagulant polyaluminum chloride (PACl). The coagulant pump controls how much of the coagulant stock enters the system. After choosing the desired dosage, the team uses a Python markdown file to determine the ideal stock concentration. In conjunction with this, the markdown file returns the required coagulant pump RPM that goes with the desired stock concentration. Once the coagulant is added, the water then passes through the flocculator, which allows for the formation of flocs. Next, the flow  enters the bottom of the sedimentation tank. The effluent that exits through the top of the tube settler then flows through the effluent turbidimeter in order to find the turbidity of the effluent. After exiting the effluent turbidimeter, the water then flows to the wasteline.
+
+[EM: Be sure to include your code!]
 
 Almost all particle removal subteams use HRS standard apparatus design in conjunction with a the traditional flocculator designed by the High G Flocculation Fall 2017 team. The flocculator in lab mimics the process in an actual AguaClara plant by attaining a sufficient collision potential (G). Values for the different parameters of the flocculator are listed in the following table.
 
@@ -67,7 +77,7 @@ The geometry of the standard design is centered around the concept of capture ve
 
 $$ V_t = \frac{d^2g}{18v} * \frac{ρ_{floc} - ρ_{H_2O}}{ρ_{H_2O}} ... (2)$$
 
-Where d is the diameter of the pipe, g the gravity force, v is viscosity and ρ represents the different densities of the water and the floc.
+Where d is the diameter of the pipe, g is the gravity force, v is viscosity and ρ represents the different densities of the water and the floc.
 
 The capture velocity depends on several different properties of the sedimentation tank being used, as one can see in the following formula:
 
