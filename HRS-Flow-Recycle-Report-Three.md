@@ -1,19 +1,12 @@
 # High Rate Sedimentation: Flow Recycle, Fall 2018
 #### Justin Conneely and Leena Sen
-
-[EM: Hi FlowRe! I will be putting my comments in brackets below the paragraph in which I am referring to. Thanks!]
-
 #### October 26th, 2018
 
 ## Abstract
-Previous High Rate Sedimentation (HRS) teams have observed that at higher upflow velocities, the floc blanket is much more dense at the top of the recirculator than at the bottom. Because of this, they have hypothesized that installing a recycle line from the top of the recirculator to the bottom of the recirculator will improve floc blanket longevity and increase overall reactor performance. The Fall 2018 team has run a baseline experiments, and has begun to fabricate the flow recycle system. In the future, the team will test the recycle system at varying angles of entry into the recirculator and at various upflow velocities.
-
-[EM: Fix grammatical mistakes.]
+Previous High Rate Sedimentation (HRS) teams have observed that at higher upflow velocities, the floc blanket is more dense at the top of the recirculator than at the bottom. Because of this, they have hypothesized that installing a recycle line from the top of the recirculator to the bottom of the recirculator will improve floc blanket longevity and increase overall reactor performance. The Fall 2018 team has run baseline experiments, fabricated the flow recycle system, and tested different methods of reversing flow.
 
 ## Introduction
-Sedimentation is the process by which coagulated contaminant particles are removed from water via gravitational settling. In a sedimentation tank, water flows upward as the flocs settle downward. Those flocs settle into a "floc blanket" at the bottom of the sedimentation tank. A floc blanket is a fluidized bed of suspended solids with a high rate of collisions. The particles in the floc blanket collide with coagulant particles and other flocs, coming together to form heavier flocs that settle to the basin of the recirculator, which still remains as part of the floc blanket. This process cleans the water, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
-
-[EM: Part of the sentence that reads "which still reamins as part of the floc blanket.." is unclear what is being referred to.]
+Sedimentation is the process by which coagulated contaminant particles are removed from water via gravitational settling. In a sedimentation tank, water flows upward as the flocs settle downward. Those flocs settle into a "floc blanket" at the bottom of the sedimentation tank. A floc blanket is a fluidized bed of suspended solids with a high rate of collisions. The particles in the floc blanket collide with coagulant particles and other flocs, coming together to form heavier flocs that settle to the basin of the recirculator. These heavier flocs remain in the reactor as part of the floc blanket. This process cleans the water, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
 
 In the AguaClara lab, the sedimentation tank's plate settlers are simulated by a section of plastic PVC piping called the tube settler. The section of tube where the floc blanket forms is referred to as the "recirculator" by the HRS teams. Since the behavior of a section of fluid is representative of the entire tank, tubing can be used to simulate a simple pathway in the reactor. This allows for a practical method of experimentation on a smaller scale. See Figure 1 for a visual comparison of the sedimentation tank in an AguaClara plant to the sedimentation tank in the lab.
 
@@ -22,9 +15,7 @@ In the AguaClara lab, the sedimentation tank's plate settlers are simulated by a
 
 Figure 1: Comparison of a sedimentation tank in an AguaClara plant and a sedimentation tank in the AguaClara lab.
 
-The HRS teams aim to design a tank that will yield an effluent of no more than 0.3 NTU while maintaining high upflow velocity. Operating at a higher upflow velocity will allow for greater water processing in a given period of time, which will decrease plant operating costs. However, when operating at a high upflow velocity in lab, the floc blanket is unstable. The floc blanket is dense near the top of the recirculator, but very thin near the bottom. HRS: Flow Recycle hopes to remediate this issue by installing a recycle line. This will allow future teams to continue researching the potential viability of high upflow velocities in AguaClara plants.
-
-[EM: Explain upflow velocity in terms of the tube settler. How does it compare to water or capture velocity? Maybe a graphic would help clarify (I know Monroe has some good ones in his notes :)).]
+The HRS teams aim to design a tank that will yield an effluent of no more than 0.3 NTU while maintaining high upflow velocity. The upflow velocity is defined as the velocity at which the particles travel upward through the sedimentation tank. Similarly, the capture velocity is the highest possible settling velocity of a particle that the tube settling will catch. Operating at a higher upflow velocity will allow for greater water processing in a given period of time, which will decrease plant operating costs. However, when operating at a high upflow velocity in lab, the floc blanket is unstable. The floc blanket is dense near the top of the recirculator, but very thin near the bottom. HRS: Flow Recycle hopes to remediate this issue by installing a recycle line. This will allow future teams to continue researching the potential viability of high upflow velocities in AguaClara plants.
 
 ## Literature Review and Previous Work
 Several past researchers have studied the process of sedimentation and the properties floc blankets. Their research gives valuable insight to the Fall 2018 HRS: Flow Recycle Team's results. Culp et al. (1968) research different angles to find the optimal slope of the tube settlers. Using normal laboratory conditions, a 60 degree angle with respect to the horizontal provided continuous sludge removal while showing effective sedimentation performance. This information was used by the Fall 2017 team when designing the tube settler that is currently being used.
@@ -100,7 +91,16 @@ Quarter-inch diameter PVC tubing was installed to connect from this location to 
 ## Results and Analysis
 
 ### Experiment One
-n/a (in progress)
+After installation of the recycle line, reactor performance decreased; the effluent turbidity was consistently ~30 NTU higher than the baseline trial for the duration of the test, as is shown in figure 4. It was observed that instead of water flowing back down the recycle line, it instead traveled up both the reciruclator and the recycle line in parallel.
+
+![ExperimentOne](https://user-images.githubusercontent.com/36204276/47260870-85817380-d491-11e8-8b86-a56ee3dd6943.PNG)
+Figure 4: This figure displays the effluent turbidity of the reactor both with and without flow recycle implemented.
+
+### Experiment Two
+Next, a series of experiments was conducted with the recycle line closed for the initial portion of the experiment so that the floc blanket would have time to establish itself before introducing a new factor. It was hypothesized that doing this would reverse the direction of flow, but this yielded similar results to experiment one.
+
+### Experiment three
+With consistently poor results, the subteam then hypothesized that the design of the tap at the top of the recycle line was a potential factor affecting these results. To mitigate this, a new tap was installed that was flush with the inside of the tube settler in oreder to prevent floc buildup, as is shown in figure 5.
 
 ## Conclusions
 n/a (in progress)
