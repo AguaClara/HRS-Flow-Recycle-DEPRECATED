@@ -1,6 +1,6 @@
 # High Rate Sedimentation: Flow Recycle, Fall 2018
 #### Justin Conneely and Leena Sen
-#### October 26th, 2018
+#### November 29th, 2018
 
 ## Abstract
 Previous High Rate Sedimentation (HRS) teams have observed that at higher upflow velocities, the floc blanket is denser at the top of the recirculator than at the bottom. Given these results, they hypothesized that installing a recycle line from the top of the recirculator to the bottom of the recirculator will improve floc blanket longevity and increase overall reactor performance. The Fall 2018 team has run baseline experiments, fabricated the flow recycle system, and tested various methods to reverse flow.
