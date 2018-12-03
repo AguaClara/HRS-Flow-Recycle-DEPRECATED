@@ -14,6 +14,7 @@
 
 ### Summer 2018
 [Symposium Presentation](https://docs.google.com/presentation/d/1ikR3Ti14HijdFI1jzeJO_98PFFImXd8VALmxmuq5RYY/edit#slide=id.g3d6a81edfb_7_36) (See "Floc-Sed-Filt") </br>
+
 [Final Presentation](https://docs.google.com/presentation/d/1Y5UBNxv1-TP58IkcFZ9gPKQVf0p5gSwH7IcihIZMOdo/edit?usp=sharing) </br>
 [Final Report](https://github.com/AguaClara/high_rate_sedimentation/blob/master/Reports/HRS%202018%20Summer%20Final%20Report.md)
 
