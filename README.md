@@ -9,7 +9,7 @@
  * Justin Conneely (jtc284@cornell.edu)
  * Leena Sen (lps57@cornell.edu)
 
-[Symposium Presentation](https://docs.google.com/presentation/d/1LHdeoGCIF5z6OcvkxYyBDmnycIgQTOnAuKEvIjzzXBo/edit#slide=id.g452f687920_1_41)
+[Symposium Presentation](https://docs.google.com/presentation/d/1LHdeoGCIF5z6OcvkxYyBDmnycIgQTOnAuKEvIjzzXBo/edit#slide=id.g452f687920_1_41)</br>
 [Final Presentation Video](https://www.youtube.com/watch?v=UaQ_6gqg96k&t=0s&list=PLhsGtpY8ipdZTn2HPI6C2uH44ADmc0Ra6&index=22)
 
 ### Summer 2018
