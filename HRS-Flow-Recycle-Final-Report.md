@@ -70,7 +70,7 @@ Where d is the diameter of the pipe, g is the gravity force, v is viscosity and 
 The capture velocity depends on several different properties of the sedimentation tank being used, as one can see in the following formula:
 
 $ V_c = \frac{SV_αsinα}{Lsinαcosα+S} ... (3) $
-
+:P
 
 Where α is the angle of the tube settler, V<sub>α</sub> is the upflow velocity, L is the length of the tube settler (after the floc weir), and S is the diameter of the tubing.
 
