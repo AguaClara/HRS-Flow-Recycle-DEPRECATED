@@ -4,7 +4,7 @@
 
 ## Abstract
 Previous High Rate Sedimentation (HRS) teams have observed that at higher upflow velocities, the floc blanket is denser at the top of the recirculator as compared to the bottom. Given these results, they hypothesized that installing a recycle line from the top of the recirculator to the bottom of the recirculator will improve floc blanket longevity and increase overall reactor performance. The Fall 2018 team ran baseline experiments, fabricated the flow recycle system, and tested various methods to reverse flow. Upon drilling and tapping the system to incorporate the recycle line, the Fall 2018 team found that the recycle line did not function as hoped and either exacerbated the issue or had no positive effect on the system altogether. The team plans to move forward by adjusting how the recycle line is designed and potentially collaborating with the HRS Bottom Geometry team to build the optimal sedimentation tank that will achieve their goals.
-
+so
 ## Introduction
 Sedimentation is the process by which coagulated contaminant particles are removed from water via gravitational settling. In a sedimentation tank, water flows upward as flocs settle downward. Those flocs settle into a "floc blanket" at the bottom of the sedimentation tank. A floc blanket is a fluidized bed of suspended solids with a high rate of collisions. The particles in the floc blanket collide with coagulant particles and other flocs, coming together to form heavier flocs that settle to the basin of the recirculator. These heavier flocs remain in the reactor as part of the floc blanket. This process cleans the water, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
 
