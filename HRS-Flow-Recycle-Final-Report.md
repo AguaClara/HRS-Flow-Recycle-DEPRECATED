@@ -15,10 +15,7 @@ In the AguaClara lab sedimentation tank setup, a section of PVC piping known as 
 
 Figure 1: Comparison of a sedimentation tank in an AguaClara plant and a sedimentation tank in the AguaClara lab.
 
-The HRS teams aim to design a tank that will yield an effluent of no more than 0.3 NTU (to be in compliance with the EPA standard for drinking water) while maintaining high upflow velocity. Upflow velocity is the speed at which the particles travel upward through the sedimentation tank. Similarly, the capture velocity is the highest possible settling velocity of a particle that the tube settling will catch. Operating at a higher upflow velocity will allow for greater water processing in a given period of time, which will decrease plant operating costs. However, when operating at a high upflow velocity in lab, the floc blanket is unstable. The floc blanket is dense near the top of the recirculator, but very thin near the bottom.
-
-
-HRS: Flow Recycle hopes to remediate this issue by installing a recycle line. This will allow future teams to continue researching the potential viability of high upflow velocities in AguaClara plants.
+The HRS teams aim to design a tank that will yield an effluent of no more than 0.3 NTU (to be in compliance with the EPA standard for drinking water) while maintaining high upflow velocity. Upflow velocity is the speed at which the particles travel upward through the sedimentation tank. Similarly, the capture velocity is the highest possible settling velocity of a particle that the tube settling will catch. Operating at a higher upflow velocity will allow for greater water processing in a given period of time, which will decrease plant operating costs. However, when operating at a high upflow velocity in lab, the floc blanket is unstable. The instability of the floc blanket implies that it will either collapse or not properly form. Given that the floc blanket is a crucial step in particle removal during water treatment, the instability of the floc blanket poses a serious risk to the efficiency of the system. Furthermore, the team has seen that the floc blanket tends to be dense near the top of the recirculator, but very thin near the bottom. This is not ideal since the floc blanket should be uniform throughout. HRS: Flow Recycle hopes to remediate this issue by installing a recycle line. This will allow future teams to continue researching the potential viability of high upflow velocities in AguaClara plants.
 
 ## Literature Review and Previous Work
 Several past researchers have studied the process of sedimentation and the properties floc blankets. Their research gives valuable insight to the Fall 2018 HRS: Flow Recycle Team's results. [Culp et al. (1968)](https://www.ircwash.org/resources/high-rate-sedimentation-water-treatment-works-paper-presented-jun-4-1968-annual-conference) researched different angles to find the optimal slope of the tube settlers. Using normal laboratory conditions, a 60 degree angle with respect to the horizontal provided continuous sludge removal while showing effective sedimentation performance. This information was used by the Fall 2017 team when designing the tube settler that is currently being used.
@@ -30,7 +27,6 @@ Building on Hurst's research, [Swetland (2014)](https://ascelibrary.org/doi/full
 In a similar vein, [Balwan (2016)](http://www.ijirae.com/volumes/Vol3/iss1/05.JAAE10091.pdf) explored how the length of the tube settlers effected effluent turbidity. He found that increasing the length of tube settler increased the amount of particles removed by the reactor. With tube settlers at an angle of 45 degrees and 60 cm length, turbidity removal was measured to be 80 percent. However, his experiments only had three length variables (40cm, 50cm, 60cm) and the effluent of longer tube settlers were unknown.
 
 Most recently, the [Summer 2018 Team](https://github.com/AguaClara/high_rate_sedimentation/blob/master/Reports/HRS%202018%20Summer%20Final%20Report.md) observed that at higher upflow velocities, the floc blanket was much more dense at the top of the recirculator than at the bottom. They proposed that the Fall 2018 team design a recycle line to allow for flocs at the top of the recirculator to flow back to the bottom and re-establish a more uniform distribution. This observation is what motivated the goal of the current team, which is to design that recycle line and test the new apparatus.
-
 
 ## Methods
 
@@ -67,7 +63,7 @@ This section contains the details behind the Fall 2017 HRS Team's "Standard Desi
 
 The geometry of the standard design is centered around the concept of capture velocity. Capture velocity is defined as the speed of the slowest moving particle that the reactor can capture. Similarly, the terminal settling velocity is reached when the viscous shear of the fluid and the buoyant force balance with the gravity. The relationship between particle diameter and terminal settling velocity is shown in Stoke’s Theorem:
 
-$$ V_t = \frac{d^2g}{18v} * \frac{ρ_{floc} - ρ_{H_2O}}{ρ_{H_2O}} ... (2) $$
+!EquationOne](https://user-images.githubusercontent.com/36204276/49475908-79a20480-f7e6-11e8-8cb1-5b0c004cb5c1.png)
 
 Where d is the diameter of the pipe, g is the gravity force, v is viscosity and ρ represents the different densities of the water and the floc.
 
