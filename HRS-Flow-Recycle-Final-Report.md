@@ -63,14 +63,13 @@ This section contains the details behind the Fall 2017 HRS Team's "Standard Desi
 
 The geometry of the standard design is centered around the concept of capture velocity. Capture velocity is defined as the speed of the slowest moving particle that the reactor can capture. Similarly, the terminal settling velocity is reached when the viscous shear of the fluid and the buoyant force balance with the gravity. The relationship between particle diameter and terminal settling velocity is shown in Stoke’s Theorem:
 
-!EquationOne](https://user-images.githubusercontent.com/36204276/49475908-79a20480-f7e6-11e8-8cb1-5b0c004cb5c1.png)
+![EquationOne](https://user-images.githubusercontent.com/36204276/49475908-79a20480-f7e6-11e8-8cb1-5b0c004cb5c1.png)
 
 Where d is the diameter of the pipe, g is the gravity force, v is viscosity and ρ represents the different densities of the water and the floc.
 
 The capture velocity depends on several different properties of the sedimentation tank being used, as one can see in the following formula:
 
-$ V_c = \frac{SV_αsinα}{Lsinαcosα+S} ... (3) $
-:P
+![EquationTwo](https://user-images.githubusercontent.com/36204276/49475907-79a20480-f7e6-11e8-9f03-0d804f99f955.png)
 
 Where α is the angle of the tube settler, V<sub>α</sub> is the upflow velocity, L is the length of the tube settler (after the floc weir), and S is the diameter of the tubing.
 
@@ -89,21 +88,21 @@ Quarter-inch diameter PVC tubing was installed to connect from this location to 
 ## Results and Analysis
 
 ### Experiment One
-After installation of the recycle line, reactor performance decreased; the effluent turbidity was consistently ~30 NTU higher than the baseline trial for the duration of the test, as is shown in figure 4. It was observed that instead of water flowing back down the recycle line, it instead traveled up both the recirculator and the recycle line in parallel.
+After installation of the recycle line, reactor performance decreased; the effluent turbidity was consistently ~30 NTU higher than the baseline trial for the duration of the test, as is shown in figure 4. It was observed that instead of water flowing back down the recycle line, it instead traveled up both the recirculator and the recycle line in parallel. This means roughly ~30% of the influent simply skipped the floc blanket all together, which explains our increase in effluent.
 
 ![ExperimentOne](https://user-images.githubusercontent.com/36204276/47260870-85817380-d491-11e8-8b86-a56ee3dd6943.PNG)
 Figure 4: This figure displays the effluent turbidity of the reactor both with and without flow recycle implemented.
 
 ### Experiment Two
-Next, a series of experiments was conducted with the recycle line closed for the initial portion of the experiment so that the floc blanket would have time to establish itself before introducing a new factor. It was hypothesized that doing this would reverse the direction of flow, but this yielded similar results to experiment one.
+Next, a series of experiments was conducted with the recycle line closed for the initial portion of the experiment so that the floc blanket would have time to establish itself before introducing the new factor of the recycle line. It was hypothesized that doing this would reverse the direction of flow, but this yielded similar results to experiment one.
 
 ![ExperimentTwo](https://user-images.githubusercontent.com/36204276/48650719-5b09d400-e9c5-11e8-80e2-6b86610b714e.png)
 Figure 5: This is a graph displaying effluent turbidity with flow recycle.
 
-As you can see above in figure 5, the effluent was relatively with the baseline until the recycle line valve was opened at about three hours in, at which point the effluent increased by roughly 15 NTU.  
+As you can see above in figure 5, the effluent was relatively consistent with the baseline until the recycle line valve was opened at about three hours in, at which point the effluent increased by roughly 15 NTU. This shows that recycle line's initial state likely does not have a significant effect on the direction of flow.
 
 ### Experiment Three
-With consistently poor results, the subteam then hypothesized that the design of the tap at the top of the recycle line was a potential factor affecting these results. To mitigate this, a new tap was installed that was flush with the inside of the tube settler in order to prevent floc buildup, as is shown in figure 6.
+In analyzing our apparatus after achieving sub-optimal results for the first two experiments, the subteam then hypothesized that the design of the tap at the top of the recycle line was a potential issue. To mitigate this, a new tap was installed that was flush with the inside of the tube settler in order to prevent floc buildup, like the accumulation of flocs shown in figure 6.
 
 ![NotFlushTap](https://user-images.githubusercontent.com/36204276/48650176-2b59cc80-e9c3-11e8-9669-974f09f35f40.jpg)
 Figure 6: This photograph shows floc buildup on the top of the tap as a result of it not being flush with the tube settler's inner diameter.
@@ -114,14 +113,16 @@ This experiment yielded results that were strikingly similar to the results of o
 
 Figure 7: This graph compares reactor performance with the tap flush to the recirculator inner diameter to the baseline test without flow recycle. The valve was opened for the recycle line trial at approximately 5.5 hours in.
 
+This communiates the fact that the sedimentation tank's bottom geometry may be the limiting factor for flow recycle. As such, it may be beneficial to wait to conduct subsequent tests on for flow recycle until a new optimal bottom geometry is design to prevent floc blanket collapse.
+
 ## Conclusions
 Based on the above data, the HRS team is unable to conclude whether the recycle line will actually help the longevity of the floc blanket. Results thus far have not been promising, but different approaches and tests are ongoing. The team believes that adjusting the entrance of the tap itself and that incorporating a peristaltic pump to reverse water flow in the favored direction to increase floc blanket longevity could also make the recycle line effective.
 
-Experiment 1 involved the installation of a recycle line. This resulted in decreased reactor performance, as the effluent turbidity resulted in a consistent ~30 NTU increase versus the baseline trial throughout the test. Furthermore, water tended to flow up both the recirculator and recycle line rather than down the recycle line, opposing the movement of water along the recirculator.
+The installation of a recycle line resulted in decreased reactor performance, as the effluent turbidity resulted in a consistent ~30 NTU increase versus the baseline trial throughout the test. Furthermore, water tended to flow up both the recirculator and recycle line rather than down the recycle line, opposing the movement of water along the recirculator.
 
-Experiment 2 demonstrated that performing the test with the recycle line closed for the initial portion of the experiment yielded the same results as Experiment 1 despite hopes that doing so would allow for the direction of flow to be reversed.
+In an effort to correct the direction of flow back down the recycle line, the subteam was able to conclude that that performing the test with the recycle line closed for the initial portion of the experiment yielded the same results as Experiment 1. Despite hopes that doing so would allow for the direction of flow to be reversed, performance remained the same.
 
-Experiment 3 involved a new approach; the design of the tap at the top of the recycle line was taken into consideration and a new one was installed such that the tap was flush with the inside of the tube settler. This experiment yielded results that were strikingly similar to our baseline trial; this leads us to believe that the bottom geometry of the reactor may be inhibiting the effectiveness of the recycle line.
+Still unable to achieve the correct direction of flow, the subteam decided to take a new approach: reanalyzing the geometry of our reactor. The design of the tap at the top of the recycle line was taken into consideration and a new one was installed such that the tap was flush with the inside of the tube settler. This experiment yielded results that were strikingly similar to our baseline trial; this leads us to believe that the bottom geometry of the reactor may be inhibiting the effectiveness of the recycle line.
 
 ## Future Work
 Future directions for Flow Recycle include incorporating a peristaltic pump along the recycle line to force water in the direction opposing flow along the recirculator to help increase floc blanket longevity. Incorporation of the peristaltic pump would correct direction of flow in the recycle line. This could serve as proof of concept if it improves reactor performance, and future HRS subteams could then work to develop a method of correcting flow without the use of a pump.
