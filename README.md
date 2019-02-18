@@ -1,10 +1,15 @@
-# High Rate Sedimentation: Flow Recycle
-**This repository for the AguaClara High Rate Sedimentation: Flow Recycle team.**
+# High Rate Sedimentation: Plate Settlers
+**This repository for the AguaClara High Rate Sedimentation: Plate Settlers team.**
 
 ### Objectives
-1. To build on the research of the Summer 2018 team and determine whether a flow recycle system will increase floc blanket uniformity
-2. To explore the effects of varied angles of entry and pipe thickness on the flow recycle system
+1. To determine whether incorporating plate settlers in the sedimentation tank will improve floc blanket longevity
+2. To explore the effects of varied angles of entry and plate orientation on the former graduate students' sedimentation tank system
 
+### Spring 2019 (HRS: Plate Settlers)
+ * Leena Sen (lps57@cornell.edu)
+ * Carmen Ortega Salan (co276@cornell.edu)
+ * Luke Meyer (lcm227@cornell.edu)
+ 
 ### Fall 2018 (HRS: Flow Recycle - [Go Here for HRS: Bottom Geometry](https://github.com/AguaClara/HRS-Bot-Geo))
  * Justin Conneely (jtc284@cornell.edu)
  * Leena Sen (lps57@cornell.edu)
