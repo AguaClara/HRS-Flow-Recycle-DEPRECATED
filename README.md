@@ -11,7 +11,7 @@
  * Luke Meyer (lcm227@cornell.edu)
  
  [Symposium Presentation]
- (https://docs.google.com/presentation/d/1G6UFA14yVlhwdYGLxfDjZUMlG4fVSUYUUXWI4LGjcDA/edit?usp=sharing)
+ (https://docs.google.com/presentation/d/1G6UFA14yVlhwdYGLxfDjZUMlG4fVSUYUUXWI4LGjcDA/edit?usp=sharing)</br>
  
 ### Fall 2018 (HRS: Flow Recycle - [Go Here for HRS: Bottom Geometry](https://github.com/AguaClara/HRS-Bot-Geo))
  * Justin Conneely (jtc284@cornell.edu)
