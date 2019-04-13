@@ -46,7 +46,7 @@ HRS: Plate Settlers approached the plan of incorporating plate settlers by devel
 
 The plates used in the CAD model were PVC plates around 10 cm in length and 1 cm spacing, with thicknesses varying between 0.5 and 1 cm. In the actual printed design of the apparatus, 2mm thick PVC plates fit somewhat better than 3mm PVC plates, although it was found that the lack of a tapered edge in the PVC plate negatively affects its ability to fit into the 45 degree slot, thus preventing formation of a watertight seal. A watertight seal is crucial to the functionality of the apparatus to ensure that flocs settle on the plate surface and do not get lodged within the apparatus itself.
 
-![PlateSettlers](https://github.com/AguaClara/HRS-Flow-Recycle/blob/master/Labeled_Mock%20(1).png)
+![2DDesign](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Setup/20190412_230917.jpg)
 
 Figure 3. Printed design placed inside the testing-tank
 
