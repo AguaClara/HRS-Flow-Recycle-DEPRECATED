@@ -46,17 +46,21 @@ HRS: Plate Settlers approached the plan of incorporating plate settlers by devel
 
 The plates used in the CAD model were PVC plates around 10 cm in length and 1 cm spacing, with thicknesses varying between 0.5 and 1 cm. In the actual printed design of the apparatus, 2mm thick PVC plates fit somewhat better than 3mm PVC plates, although it was found that the lack of a tapered edge in the PVC plate negatively affects its ability to fit into the 45 degree slot, thus preventing formation of a watertight seal. A watertight seal is crucial to the functionality of the apparatus to ensure that flocs settle on the plate surface and do not get lodged within the apparatus itself.
 
+![PlateSettlers](https://github.com/AguaClara/HRS-Flow-Recycle/blob/master/Labeled_Mock%20(1).png)
+
+Figure 3. Printed design placed inside the testing-tank
+
 Some further fabrication adjustments are required. 3D printing elicits some new issues, given that the material can produce a surface that could allow flocs to settle and prevent water from flowing through the apparatus. As an alternative design that HRS: Plate Settlers also worked on is a model wherein threaded rods are bound to the floc weir and inlet tube. Therefore, the plates were to be bound to either threaded rod. This allowed for less surface area for floc to settle on besides the plates.
 
 Models for the plate settlers will be redesigned to test influences of plate width, spacing, and angle down the road, as is addressed in “Future Work” below. These variables are important given that plate width and spacing will likely influence the amount of space there will be for flocs and water to move freely through the sedimentation tank at the location of the plate settlers without creating a clumping of flocs, as was seen by HRS: Flow Recycle during testing when drilling and tapping the sedimentation tank (flocs settled on a small portion of the tap that was not flush with the sedimentation tank and slightly protruded inward). Angle may affect the actual settling of flocs, either preventing flocs from settling or not allowing flocs to fall back into the fall blanket and create a fluidized, free moving bed.
 
 ![PlateSettlers](https://github.com/AguaClara/HRS-Flow-Recycle/blob/master/Labeled_Mock%20(1).png)
 
-Figure 3. Design schematic of plate settlers apparatus showing latching mechanism and spacing between plates.
+Figure 4. Design schematic of plate settlers apparatus showing latching mechanism and spacing between plates.
 
 ![PlateSettlersModel](https://github.com/AguaClara/HRS-Flow-Recycle/blob/master/Labeled_Mock_2.png)
 
-Figure 4. Design schematic of plate settlers indicating modifiable slots and the tapered edges that prevent plates from slipping into the sedimentation tank.
+Figure 5. Design schematic of plate settlers indicating modifiable slots and the tapered edges that prevent plates from slipping into the sedimentation tank.
 
 [2 dead links. You need the link to the raw file by opening the image in a new tab.]
 
