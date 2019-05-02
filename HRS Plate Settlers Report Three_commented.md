@@ -20,7 +20,7 @@ Figure 1: Design schematic of the sedimentation tank in the AguaClara plants.
 
 ![SedTankDiagram](https://github.com/CarmenOrtega/aguaclara_tutorial/blob/master/SedTankDiagram.PNG?raw=true)
 
-Figure 2: Design schematic of experimental apparatus. Influent enters the sedimentation tank from the flocculator via inlet jet tubes of variable size. Downward direction of the influent flow is redirected upward by the semicircular jet reverser bottom geometry. Small percentage of the flow is insufficient to supply an additional tube settler and was sent to waste (Garland 2017).
+Figure 2: Design schematic of experimental apparatus. Influent enters the sedimentation tank from the flocculator via inlet jet tubes of variable size. Downward direction of the influent flow is redirected upward by the semicircular jet reverser bottom geometry..
 
 The HRS team aims to design a tank that will yield an effluent turbidity of no more than 0.3 NTU while maintaining high upflow velocity. Operating at a higher upflow velocity will allow for a greater volume of water processing in a given period of time, which will decrease plant operating costs. However, when operating at a high upflow velocity in lab, the floc blanket is unstable. The blanket is dense near the top of the recirculator, but very thin near the bottom. HRS: Plate Settlers plans to remediate this issue by incorporating a second set of plate settlers within the sedimentation tank itself. As more particles enter through the manifold, flocs at the top of the blanket overflow into the floc hopper or floc weir. The smallest particles which make it past the floc blanket and floc hopper then enter the plate settlers. Plate settlers catch the smallest particles by increasing the horizontal space where particles can settle out. Plate settler length, channel-width (how far apart each plate is from its neighbor), and angle from the horizon determines capture velocity.
 
@@ -107,7 +107,7 @@ Culp, G., Hansen, S., & Richardson, G. (1968). High-Rate Sedimentation in Water 
 
 Galantino, C., Oritz, A., & Zarecor, M. (2017). High Rate Sedimentation Fall 2017 Report.
 
-~~Garland, C., Weber-Shirk, M., & Lion, L. W. (2017). Revisiting Hydraulic Flocculator Design for Use in Water Treatment Systems with Fluidized Floc Beds. Environmental Engineering Science, 34(2), 122–129. https://doi.org/10.1089/ees.2016.0174~~
+~~Garland, C., Weber-Shirk, M., & Lion, L. W. (2017). Revisiting Hydraulic Flocculator Design for Use in Water Treatment Systems with Fluidized Floc Beds. Environmental Engineering Science, 34(2), 122–129. https://doi.org/10.1089/ees.2016.0174~~[-Addressed LM (removed based on Kanha's request]
 
 
 Hong, A., Si, H. (2018). High Rate Sedimentation Summer 2018 Report.
