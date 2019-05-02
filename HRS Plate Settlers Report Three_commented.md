@@ -41,7 +41,7 @@ Furthermore, Hurst (2010) noted that the presence of the floc blanket enhanced t
 
 In regards to controlling a blanket effectively, Swetland (2014) discovered that as larger flocs formed in the sedimentation tank, those flocs would settle due to their high density relative to the fluid. Additionally, they found that in order for particle removal to occur, flocs need to have a higher settling velocity than the capture velocity. The capture velocity is the lowest velocity at which plates can catch particles, while the settling velocity is the optimal and averaged speed for flocs to descend at. As the flocs concentrate and fall to the bottom of the sedimentation tank, a floc blanket forms. **[Again you can define it in intro now that it will be above prev work+lit review]** [-Addressed LM (Kanha's comment regarding defining floc blanket prior to this has now also been addressed as well)] These findings informed the High Rate Sedimentation teams' understanding of floc formation, so that they could designed a plate geometry that accommodates this settling and formation.
 
-In a similar vein, Balwan (2016) explored how the length of the tube settlers affected effluent turbidity. He found that increasing the length of tube settler increased the amount of particles removed by the reactor. With tube settlers at an angle of 45 degrees and 60 cm length, turbidity removal was measured to be 80 percent. However, his experiments only had three length variables (40cm, 50cm, 60cm) and the effluent of longer tube settlers were unknown. As a result, the initial design for the plate settlers had plastic at a 45 degree angle. The angle is crucial in determining the effectivity of the plate settler in increasing upflow while decreasing turbidity. This is due to the proportional interaction that channel geometry has with the velocity gradient, which is discussed in Casey Garland's 2017 research below.
+In a similar vein, Balwan (2016) explored how the length of the tube settlers affected effluent turbidity. He found that increasing the length of tube settler increased the amount of particles removed by the reactor. With tube settlers at an angle of 45 degrees and 60 cm length, turbidity removal was measured to be 80 percent. However, his experiments only had three length variables (40cm, 50cm, 60cm) and the effluent of longer tube settlers were unknown. As a result, the initial design for the plate settlers had plastic at a 45 degree angle. The angle is crucial in determining the effectivity of the plate settler in increasing upflow while decreasing turbidity. This is due to the proportional interaction that channel geometry has with the velocity gradient.
 
 Hurst (2016) derived that rather than just increasing the upflow velocity to increase the creation of the floc blankets, alum dosage must also be considered. The turbidity and upflow velocity work in tandem to determine the stability of a suspended floc blanket. In the experiments described in Hurst (2016), upflow velocity was held constant at 1.2 mm/s, but coagulant doses (ranging from 1.0 to 7.5 mg/L) were varied in 10 nephelometric turbidity units between 100 NTU and 500 NTU. That being said, 15 mg/L of alum was found to be a suboptimal dose, as the blankets would break in higher conditions. Hurst concluded that by increasing the ratio of influent turbidity to the dose, one could use a lower dose while still having the same rate of particle removal. The 2019 Spring HRS Plate Settlers team has considered the velocity and dose together. Hurst recommends a range of 1.0 to 7.5 mg/L of alum, so the team used those values in a predictive model of the plate settlers. In short, this provided the team control variables to use as a model for testing the plates. [Kanha said this research is not applicable to us, but I am a tad confused considering it gave us control variables to test with]
 
@@ -66,17 +66,17 @@ Some further fabrication adjustments are required. 3D printing elicits some new 
 
 Models for the plate settlers will be redesigned to test influences of plate width, spacing, and angle down the road, as is addressed in “Future Work” below. These variables are important given that plate width and spacing will likely influence the amount of space there will be for flocs and water to move freely through the sedimentation tank at the location of the plate settlers without creating a clumping of flocs, as was seen by HRS: Flow Recycle during testing when drilling and tapping the sedimentation tank (flocs settled on a small portion of the tap that was not flush with the sedimentation tank and slightly protruded inward). Angle may affect the actual settling of flocs, either preventing flocs from settling or not allowing flocs to fall back into the fall blanket and create a fluidized, free moving bed.
 
-![PlateSettlers](https://github.com/AguaClara/HRS-Flow-Recycle/blob/master/Labeled_Mock%20(1).png)
+![PlateSettlers](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Labeled_Mock%20(1).png)
 
 Figure 4. Design schematic of plate settlers apparatus showing latching mechanism and spacing between plates.
 
-![PlateSettlersModel](https://github.com/AguaClara/HRS-Flow-Recycle/blob/master/Labeled_Mock_2.png)
+![PlateSettlersModel](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Labeled_Mock_2.png)
 
 Figure 5. Design schematic of plate settlers indicating modifiable slots and the tapered edges that prevent plates from slipping into the sedimentation tank.
 
 **[2 dead links. You need the link to the raw file by opening the image in a new tab.]**
 
-**[As of April 24 the links are still dead. Please address them!]**
+**[As of April 24 the links are still dead. Please address them!]**[-Addressed LM]
 
 ## Results
 (We have not yet performed any tests, but we will be doing tests in the coming weeks for which we will show results in future report).
@@ -107,7 +107,7 @@ Culp, G., Hansen, S., & Richardson, G. (1968). High-Rate Sedimentation in Water 
 
 Galantino, C., Oritz, A., & Zarecor, M. (2017). High Rate Sedimentation Fall 2017 Report.
 
-Garland, C., Weber-Shirk, M., & Lion, L. W. (2016). Revisiting Hydraulic Flocculator Design for Use in Water Treatment Systems with Fluidized Floc Beds. Environmental Engineering Science, 34(2), 122–129. https://doi.org/10.1089/ees.2016.0174
+~~Garland, C., Weber-Shirk, M., & Lion, L. W. (2017). Revisiting Hydraulic Flocculator Design for Use in Water Treatment Systems with Fluidized Floc Beds. Environmental Engineering Science, 34(2), 122–129. https://doi.org/10.1089/ees.2016.0174~~
 
 
 Hong, A., Si, H. (2018). High Rate Sedimentation Summer 2018 Report.
