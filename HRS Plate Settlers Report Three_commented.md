@@ -35,7 +35,7 @@ By increasing the number of plate settlers, and thereby the area in which the fl
 ## Literature Review and Previous Work
 Several past researchers have studied the process of sedimentation and the properties of floc blankets. Their research gives valuable insight to the Spring 2019 High Rate Sedimentation AguaClara team.
 
-Culp et al. (1968) researched different angles to find the optimal slope of tube settlers: tubing that forces loose-flocs back into the sedimentation tank. Using normal laboratory conditions, a 60 degree angle with respect to the horizontal provided continuous sludge removal while showing effective sedimentation performance. This gave the team an angle to begin their designs at.
+Culp et al. (1968) researched different angles to find the optimal slope of tube settlers: tubing that forces loose-flocs back into the sedimentation tank. Using normal laboratory conditions, a 60 degree angle with respect to the horizontal provided continuous sludge removal while showing effective sedimentation performance. This gave the team a maximum angle to test plate settlers with.
 
 Furthermore, Hurst (2010) noted that the presence of the floc blanket enhanced the removal of particles. Their experiments found that upflow velocities of 1.0 to 1.3 mm/s produced the best performance. Past HRS teams have been successful at establishing floc blankets at higher velocities than the range given by Hurst, up to 15 mm/s, but those floc blankets were not stable; therefore, in order to ensure stability the team will use the velocities aforementioned by Hurst. A longer definition of the floc blanket and its purpose can be found in the introduction. **[As I said above intro should be above previous work/lit review. Again sorry about that.]** [-Addressed LM]
 
