@@ -119,22 +119,26 @@ Plate settlers are proven as beneficial devices that stabilize a floc bed, but t
 2) Furthermore, based on research perform by Hurst (2016), it is understood that a higher number of plates results in more stability. This signifies that the smaller the plates can get--and the more of them that can be inserted into the tank--yields the best results for floc blanket longevity.
 
 While most materials already existed in the lab, little documentation existed regarding the creation of the sedimentation tank. Henceforth, this manual covers the creation of HRS Spring 2019's modifications and additions to the design:
-**1x Clay Mixer
-1x Clay Pump
-2x Turbidity Meters (Influent/Effluent)
-1x Influent Pump
-1x PACl Pump
-1x Effluent Tube Settler Pump (2 is recommended to operate at higher upflow velocities, but only 1 is currently in use)
-6x 1 in Diameter, 5 ft Long Tube (for Tube Settlers)
-1x 30 ft Role of 3 cm Poly-vinyl Tubing
-1x HD-Pro Camera**
+**1x Clay Mixer**
+**1x Clay Pump**
+**2x Turbidity Meters (Influent/Effluent)**
+**1x Influent Pump**
+**1x PACl Pump**
+**1x Effluent Tube Settler Pump (2 is recommended to operate at higher upflow velocities, but only 1 [Question for Kanha: is using 1 instead of one appropriate?] is currently in use)**
+**6x 1 in Diameter, 5 ft Long Tube (for Tube Settlers)**
+**1x 30 ft Role of 3 cm Poly-vinyl Tubing**
+**1x HD-Pro Camera**
 
 While the clay mixer runs at a constant rate when plugged in, the four pumps can have their rates adjusted. The following calculaitons of pump rates have been performed for 1mm/s of upflow, however, the methodologies are consistent with any upflow.
 
-1) Use a timer and graduated cylinder to test the output of a pump at a certain RPM. Use that relationship in a porportionality consisting of the desired upflow. This will yield the desired RPM for that particular device If working with multiple tube settlers, ensure that the team divides the desired upflow across the number of tube settlers*
+1) Use a timer and graduated cylinder to test the output of a pump at a certain RPM: ___ rpm = ___ mL/___ sec. Use that relationship in a porportionality consisting of the desired upflow. This will yield the desired RPM for that particular device If working with multiple tube settlers, ensure that the team divides the desired upflow across the number of tube settlers*
 **Note: The cross sectional area of the tank's region of upflow (not including the floc weir) is 14 mm x 340 mm.**
 2) If a pump uses mL/minute instead of RPM, convert the RPMs to mL/minute using a dimensional analysis.
 3) Using the above values, concentrations for stock of PACl and its respect mL/min dosing can be calculated using the below code. Furthermore, the full code and python files can be found [here](https://github.com/AguaClara/HRS-Flow-Recycle/blob/master/Preliminary_Calculations.md).
+
+As for operation of the tank, cider Figure X above, which is the full set-up of interest. Within Figure Y, note the placement of each of the pumps and turbidity meters. PACl, Effluent (Tube Settlers), and Influent all require the RPM or mL/sec to be manually set using the calculations found previously. Clay is automatically determined by ProCoDA based on influent readings, as it is the only pump connected to ProCoDA. The computer running ProCoDA an be found to the left of the set up in Figure Y.
+
+Figure Z shows the way in which all tube settlers are operated by only one device. As the device currently runs on
 
 ## Bibliography
 Balwan, K. (2016). Study of the effect of length and inclination of tube settler on the effluent quality. Journal (International Journal of Innovative Research and Advanced Engineering).
