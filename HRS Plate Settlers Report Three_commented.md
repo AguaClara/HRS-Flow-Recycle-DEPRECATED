@@ -78,6 +78,8 @@ Figure 5. Design schematic of plate settlers indicating modifiable slots and the
 
 **[As of April 24 the links are still dead. Please address them!]**[-Addressed LM]
 
+**[Please include in this document the operation and design of the tank of the HRS by updating the Methods and adding a Manual section]**
+
 ## Results
 (We have not yet performed any tests, but we will be doing tests in the coming weeks for which we will show results in future report).
 
