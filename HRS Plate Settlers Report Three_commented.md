@@ -103,20 +103,9 @@ When the testing of HRS: Plate Settlers was completed, there was still a large a
 
 ## Manual [-Addressed LM]
 
-Manual (5 points)
-Explain the purpose and hypothesis of experiments. 
-Provides a materials list that details the materials needed to build and operate the apparatus.
-Provides a detailed diagram of the apparatus setup.
-Clearly details steps of the procedure such that future teams can replicate the experiments.
-Rating of 5 (Strong): 
-Clear and concise description of the purpose and hypothesis of experiments
-Provides an accurate materials list
-Provides an easy to understand diagram of the apparatus 
-Clear and concise description of steps in procedure
-
-Plate settlers are proven as beneficial devices that stabilize a floc bed, but there testing in the lab setting is unpredictable. Because floc beds currently break with ease, ensuring that plate settlers are optimized in their ability to stabilize a floc bed is crucial to AguaClara resrach. As a result, the motivation of HRS: Plate Settler's goal is not to prove whether or not implementing plate settlers benefit AguaClara Filtration. Rather, it is to test variables that can improve the longevity of the floc blanket in the lab-setting. Hence, the following variables exist in our hypothesis: [this feels a tad repetitious, thoughts?]
-1) Based on previous theory, we know the longest distance a floc can travel across a plate is determined by the equation referenced in Figure 3. Henceforth, when angle \alpha is 45&deg;, the floc will spend the most time in the plate settler, and therefore: the floc bed will be created over the longest period of time. With such a long period, the bed will become more stable than before.
-2) Furthermore, based on research perform by Hurst (2016), it is understood that a higher number of plates results in more stability. This signifies that the smaller the plates can get--and the more of them that can be inserted into the tank--yields the best results for floc blanket longevity.
+Plate settlers are proven as beneficial devices that stabilize a floc bed, but their testing in the lab setting is unpredictable. Because floc beds currently break with ease, ensuring that plate settlers are optimized in their ability to stabilize a floc bed is crucial to AguaClara research. As a result, the motivation of HRS: Plate Settler's goal is not to prove whether or not implementing plate settlers benefits AguaClara Filtration. Rather, it is to test variables that can improve the longevity of the floc blanket in the lab-setting. Hence, the following variables exist in our hypothesis: [this feels a tad repetitious if its previously mentioned in the report, thoughts?]
+1) Based on previous theory, it is known that the longest distance a floc can travel across a plate is determined by the equation referenced in Figure 3. Henceforth, when angle \alpha [why cant i get latex to work for greek letters?] is 45&deg;, the floc will spend the most time in the plate settler, and therefore: the floc bed will be created over the longest period of time. With such a long period, the bed will become more stable than before.
+2) Furthermore, based on research performed by Hurst (2016), it is understood that a higher number of plates results in more stability. This signifies that the smaller the plates can get—and the more of them that can be inserted into the tank—yields the best results for floc blanket longevity.
 
 While most materials already existed in the lab, little documentation existed regarding the creation of the sedimentation tank. Henceforth, this manual covers the creation of HRS Spring 2019's modifications and additions to the design:
 **1x Clay Mixer**
@@ -137,12 +126,12 @@ While most materials already existed in the lab, little documentation existed re
 
 **1x HD-Pro Camera**
 
-While the clay mixer runs at a constant rate when plugged in, the four pumps can have their rates adjusted. The following calculaitons of pump rates have been performed for 1mm/s of upflow, however, the methodologies are consistent with any upflow.
+While the clay mixer runs at a constant rate when plugged in, the four pumps can have their rates adjusted. The following calculations of pump rates have been performed for 1mm/s of upflow, however, the methodologies are consistent with any upflow.
 
-1) Use a timer and graduated cylinder to test the output of a pump at a certain RPM: ___ rpm = ___ mL/___ sec. Use that relationship in a porportionality consisting of the desired upflow. This will yield the desired RPM for that particular device If working with multiple tube settlers, ensure that the team divides the desired upflow across the number of tube settlers
+1) Use a timer and graduated cylinder to test the output of a pump at a certain RPM: ___ rpm = ___ mL/___ sec. Use that relationship in a proportionality consisting of the desired upflow. This will yield the desired RPM for that particular device. If working with multiple tube settlers, ensure that the team divides the desired upflow across the number of tube settlers
 **Note: The cross sectional area of the tank's region of upflow (not including the floc weir) is 14 mm x 340 mm.**
-2) If a pump uses mL/minute instead of RPM, convert the RPMs to mL/minute using a dimensional analysis.
-3) Using the above values, concentrations for stock of PACl and its respect mL/min dosing can be calculated using the below code. Furthermore, the full code and python files can be found [here](https://github.com/AguaClara/HRS-Flow-Recycle/blob/master/Preliminary_Calculations.md).
+2) If a pump measures in mL/minute instead of RPM, convert the RPMs to mL/minute using a dimensional analysis.
+3) Using the above values, concentrations for stock of PACl and its respectful mL/min dosing can be calculated using the code [here](https://github.com/AguaClara/HRS-Flow-Recycle/blob/master/Preliminary_Calculations.md).
 
 ![Full_Setup](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Full_Setup.png)
 
@@ -152,30 +141,30 @@ Figure 5. The Operational Setup of the Tank
 
 Figure 6. Labeled Components of the Setup
 
-As for operation of the tank, consider Figure X above, which is the full set-up of interest. Within Figure Y, note the placement of each of the pumps and turbidity meters. PACl, Effluent (Tube Settlers), and Influent all require the RPM or mL/sec to be manually set using the calculations found previously. Clay is automatically determined by ProCoDA based on influent readings, as it is the only pump connected to ProCoDA. The computer running ProCoDA can be found to the left of the set up in Figure Y.
+As for operation of the tank, consider Figure 5 above, which is the full set-up of interest. Within Figure 6, note the placement of each of the pumps and turbidity meters. PACl, Effluent (Tube Settlers), and Influent pumps all require the RPM or mL/minute to be manually set using the calculations found previously. Clay is automatically determined by ProCoDA based on influent readings, as it is the only pump connected to ProCoDA. The computer running ProCoDA is to the left of the set up in Figure 6.
 
 ![Tube_Settler_Setup](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Tube_Settler_Connection.png)
 
 Figure 7. Setup of the Tube Settlers
 
-Figure Z shows the way in which all tube settlers are operated by only one device. As mentioned in Future Work, it is advised for future teams to reconsider this and use two pumps to operate the tube settlers.
+Figure 7 shows the way in which all tube settlers are operated by only one device. As mentioned in Future Work, it is advised for future teams to reconsider this choice and use two pumps to operate the tube settlers. This allows for upflow velocities higher than 1 mm/s.
 
-The pumps and water should be turned on in a particular way, for the below procedure avoids pressure-build up and damage to the devices. Additionally, the values that HRS Plate Settlers used for a 1 mm/s upflow have been included.
+The pumps and water should be turned on in the below order, for this procedure avoids pressure-build up and damage to the devices. Additionally, the values that HRS Plate Settlers used for a 1 mm/s upflow have been included.
 1) Switch the blue tab near the sink into a position parallel with the tubing; this allows water into the system
-2) Turn on the Influent Pump, as labeled in Figure Y. Use 143 mL/minute
-3) Turn on the PACl pump to 29.9 mL/minute
+2) Turn on the Influent Pump, as labeled in Figure 6. Use 143 mL/minute.
+3) Turn on the PACl pump to 29.9 mL/minute.
 4) Turn on the mixer by plugging it into the wall.
 5) Turn on the Clay Pump.
 6) Turn on the Tube Settler Pump to 94 rpm.
 The device will now operate with standard procedures and for 1 mm/s of upflow through the sedimentation tank.
 
-To power down the device, ensure that one first moves the blue valve mentioned in step 1 to a perpendicular position. After that, follow the opposite order of shut down procedures as opposed to what was previously mentioned.
+To power down the device, ensure that one first moves the blue valve mentioned in step 1 to a perpendicular position against the tube. After that, shut down of all devices can occur in any order.
 
-*If the device does not operate as intended the following troubleshooting can solve common errors:
+*If the device does not operate as intended, the following troubleshooting can solve common errors:
 - Calibrate the turbidity meters
 - Ensure the influent valve is turned off when not in operation. This prevents pressure build-up and leakage.
-- Verify the clay-mixer is properly turned on and not beating the side of the clay tub.
-- Clean the tank using the sponge position near the end of the tank.
+- Verify the clay-mixer is properly turned on and not in contact with the side of the clay tub.
+- Clean the tank using the sponge located beside it.
 - Reconnect the sensors and pumps to ProCoDA after shutting down all components of the system.
 
 ## Bibliography
