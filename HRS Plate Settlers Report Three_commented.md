@@ -101,6 +101,40 @@ When the testing of HRS: Plate Settlers was completed, there was still a large a
 2) How thin should a channel be before it gets clogged with flocs
 3) How can plates be easily cleaned in their new design [speaking in future tense--no finalized design exists yet, hopefully by the final report there will be some however. If not, this will be removed]**[sounds good]**
 
+## Manual [-Addressed LM]
+
+Manual (5 points)
+Explain the purpose and hypothesis of experiments. 
+Provides a materials list that details the materials needed to build and operate the apparatus.
+Provides a detailed diagram of the apparatus setup.
+Clearly details steps of the procedure such that future teams can replicate the experiments.
+Rating of 5 (Strong): 
+Clear and concise description of the purpose and hypothesis of experiments
+Provides an accurate materials list
+Provides an easy to understand diagram of the apparatus 
+Clear and concise description of steps in procedure
+
+Plate settlers are proven as beneficial devices that stabilize a floc bed, but there testing in the lab setting is unpredictable. Because floc beds currently break with ease, ensuring that plate settlers are optimized in their ability to stabilize a floc bed is crucial to AguaClara resrach. As a result, the motivation of HRS: Plate Settler's goal is not to prove whether or not implementing plate settlers benefit AguaClara Filtration. Rather, it is to test variables that can improve the longevity of the floc blanket in the lab-setting. Hence, the following variables exist in our hypothesis: [this feels a tad repetitious, thoughts?]
+1) Based on previous theory, we know the longest distance a floc can travel across a plate is determined by the equation referenced in Figure 3. Henceforth, when angle \alpha is 45&deg;, the floc will spend the most time in the plate settler, and therefore: the floc bed will be created over the longest period of time. With such a long period, the bed will become more stable than before.
+2) Furthermore, based on research perform by Hurst (2016), it is understood that a higher number of plates results in more stability. This signifies that the smaller the plates can get--and the more of them that can be inserted into the tank--yields the best results for floc blanket longevity.
+
+While most materials already existed in the lab, little documentation existed regarding the creation of the sedimentation tank. Henceforth, this manual covers the creation of HRS Spring 2019's modifications and additions to the design:
+**1x Clay Mixer
+1x Clay Pump
+2x Turbidity Meters (Influent/Effluent)
+1x Influent Pump
+1x PACl Pump
+1x Effluent Tube Settler Pump (2 is recommended to operate at higher upflow velocities, but only 1 is currently in use)
+6x 1 in Diameter, 5 ft Long Tube (for Tube Settlers)
+1x 30 ft Role of 3 cm Poly-vinyl Tubing
+1x HD-Pro Camera**
+
+While the clay mixer runs at a constant rate when plugged in, the four pumps can have their rates adjusted. The following calculaitons of pump rates have been performed for 1mm/s of upflow, however, the methodologies are consistent with any upflow.
+
+1) Use a timer and graduated cylinder to test the output of a pump at a certain RPM. Use that relationship in a porportionality consisting of the desired upflow. This will yield the desired RPM for that particular device If working with multiple tube settlers, ensure that the team divides the desired upflow across the number of tube settlers*
+**Note: The cross sectional area of the tank's region of upflow (not including the floc weir) is 14 mm x 340 mm.**
+2) If a pump uses mL/minute instead of RPM, convert the RPMs to mL/minute using a dimensional analysis.
+3) Using the above values, concentrations for stock of PACl and its respect mL/min dosing can be calculated using the below code. Furthermore, the full code and python files can be found [here](https://github.com/AguaClara/HRS-Flow-Recycle/blob/master/Preliminary_Calculations.md).
 
 ## Bibliography
 Balwan, K. (2016). Study of the effect of length and inclination of tube settler on the effluent quality. Journal (International Journal of Innovative Research and Advanced Engineering).
