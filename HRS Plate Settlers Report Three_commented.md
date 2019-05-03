@@ -136,9 +136,35 @@ While the clay mixer runs at a constant rate when plugged in, the four pumps can
 2) If a pump uses mL/minute instead of RPM, convert the RPMs to mL/minute using a dimensional analysis.
 3) Using the above values, concentrations for stock of PACl and its respect mL/min dosing can be calculated using the below code. Furthermore, the full code and python files can be found [here](https://github.com/AguaClara/HRS-Flow-Recycle/blob/master/Preliminary_Calculations.md).
 
-As for operation of the tank, cider Figure X above, which is the full set-up of interest. Within Figure Y, note the placement of each of the pumps and turbidity meters. PACl, Effluent (Tube Settlers), and Influent all require the RPM or mL/sec to be manually set using the calculations found previously. Clay is automatically determined by ProCoDA based on influent readings, as it is the only pump connected to ProCoDA. The computer running ProCoDA an be found to the left of the set up in Figure Y.
+![Full_Setup](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Full_Setup.png)
+Figure 5. The Operational Setup of the Tank
 
-Figure Z shows the way in which all tube settlers are operated by only one device. As the device currently runs on
+![Setup_Labeled](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Label_Setup_Labeled.png)
+Figure 6. Labeled Components of the Setup
+
+As for operation of the tank, consider Figure X above, which is the full set-up of interest. Within Figure Y, note the placement of each of the pumps and turbidity meters. PACl, Effluent (Tube Settlers), and Influent all require the RPM or mL/sec to be manually set using the calculations found previously. Clay is automatically determined by ProCoDA based on influent readings, as it is the only pump connected to ProCoDA. The computer running ProCoDA can be found to the left of the set up in Figure Y.
+
+![Tube_Settler_Setup](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Tube_Settler_Connection.png)
+
+Figure Z shows the way in which all tube settlers are operated by only one device. As mentioned in Future Work, it is advised for future teams to reconsider this and use two pumps to operate the tube settlers.
+
+The pumps and water should be turned on in a particular way, for the below procedure avoids pressure-build up and damage to the devices. Additionally, the values that HRS Plate Settlers used for a 1 mm/s upflow have been included.
+1) Switch the blue tab near the sink into a position parallel with the tubing; this allows water into the system
+2) Turn on the Influent Pump, as labeled in Figure Y. Use 143 mL/minute
+3) Turn on the PACl pump to 29.9 mL/minute
+4) Turn on the mixer by plugging it into the wall.
+5) Turn on the Clay Pump.
+6) Turn on the Tube Settler Pump to 94 rpm.
+The device will now operate with standard procedures and for 1 mm/s of upflow through the sedimentation tank.
+
+To power down the device, ensure that one first moves the blue valve mentioned in step 1 to a perpendicular position. After that, follow the opposite order of shut down procedures as opposed to what was previously mentioned.
+
+*If the device does not operate as intended the following troubleshooting can solve common errors:
+- Calibrate the turbidity meters
+- Ensure the influent valve is turned off when not in operation. This prevents pressure build-up and leakage.
+- Verify the clay-mixer is properly turned on and not beating the side of the clay tub.
+- Clean the tank using the sponge position near the end of the tank.
+- Reconnect the sensors and pumps to ProCoDA after shutting down all components of the system.
 
 ## Bibliography
 Balwan, K. (2016). Study of the effect of length and inclination of tube settler on the effluent quality. Journal (International Journal of Innovative Research and Advanced Engineering).
