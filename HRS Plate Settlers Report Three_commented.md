@@ -28,7 +28,7 @@ In order to ensure floc blanket stability, the team proposes 45&deg; to be the i
 
 ![longest_path](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/longest_path.png)
 
-Figure 3: Longest possible path of a floc through a sedimentation tube
+Figure 3. Lngest possible path of a floc through a sedimentation tube
 
 By increasing the number of plate settlers, and thereby the area in which the flocs can settle, HRS: Plate Settlers intends to increase the capture velocity and therefore achieve a more stabilized floc blanket. In order to test this, a proper model-tank and experimentation system must first be developed. If successful, this will allow future teams to continue researching the potential viability of high upflow velocities in AguaClara plants. Furthermore, progress in the context of plate settlers held significance in two ways: a major improvement for High Rate Sedimentation as a subteam and for the process of flocculation in the overall water treatment process. Such advances would achieve a long-term goal of improving floc blanket stability (and thus improve the entire particle removal process) at both a model and real-life scale.
 
@@ -56,11 +56,11 @@ HRS: Plate Settlers approached the plan of incorporating plate settlers by devel
 
 The plates used in the CAD model were PVC plates around 10 cm in length and 1 cm spacing, with thicknesses varying between 0.5 and 1 cm. In the actual printed design of the apparatus, 2mm thick PVC plates fit somewhat better than 3mm PVC plates, although it was found that the lack of a tapered edge in the PVC plate negatively affects its ability to fit into the 45 degree slot, thus preventing formation of a watertight seal. A watertight seal is crucial to the functionality of the apparatus to ensure that flocs settle on the plate surface and do not get lodged within the apparatus itself.
 
-**[How do you plan on getting this watertight seal?]**
+**[How do you plan on getting this watertight seal?]**[-Addressed LS/CO (addressed in results and future work)]
 
 ![2DDesign](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Setup/20190412_230917.jpg)
 
-Figure 3. Printed design placed inside the testing-tank
+Figure 4. rinted design placed inside the testing-tank
 
 Some further fabrication adjustments are required. 3D printing elicits some new issues, given that the material can produce a surface that could allow flocs to settle and prevent water from flowing through the apparatus. As an alternative design that HRS: Plate Settlers also worked on is a model wherein threaded rods are bound to the floc weir and inlet tube. Therefore, the plates were to be bound to either threaded rod. This allowed for less surface area for floc to settle on besides the plates.
 
@@ -68,20 +68,39 @@ Models for the plate settlers will be redesigned to test influences of plate wid
 
 ![PlateSettlers](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Labeled_Mock%20(1).png)
 
-Figure 4. Design schematic of plate settlers apparatus showing latching mechanism and spacing between plates.
+Figure 5.Design schematic of plate settlers apparatus showing latching mechanism and spacing between plates.
 
 ![PlateSettlersModel](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Labeled_Mock_2.png)
 
-Figure 5. Design schematic of plate settlers indicating modifiable slots and the tapered edges that prevent plates from slipping into the sedimentation tank.
+Figure 6.Design schematic of plate settlers indicating modifiable slots and the tapered edges that prevent plates from slipping into the sedimentation tank.
 
 **[2 dead links. You need the link to the raw file by opening the image in a new tab.]**
 
 **[As of April 24 the links are still dead. Please address them!]**[-Addressed LM]
 
-**[Please include in this document the operation and design of the tank of the HRS by updating the Methods and adding a Manual section]**
+**[Please include in this document the operation and design of the tank of the HRS by updating the Methods and adding a Manual section]**[-Addressed LM]
+
+After 3D printing the aforementioned settlers, problems arose regarding the use 3D printing itself. Residue was left on the plates after the plate-settler testing apparatus after it was made, and this prohibited a unified upflow throughout the tank. This residual material cannot be avoided, as it is part of the printing process. As a result, the team had to look to more methods of developing plate settlers, because the microscale technology necessary to 3D print the plates is not readily available in the AguaClara lab.
+
+As a result, the team moved on to fabricating the device themselves. This consisted of the following procedure:
+1) Drill holes in PVC plates that are smaller than a 1/8 in wire. This tolerance develops a friction fit that will be utilized in step 3
+2) Cut a piece of 1/8 metal wire 400 mm in length. *Note: this length is subject to change based on design specifications.*
+3) String the metal wire through the drilled holes.
+4) Cut smaller wires that can be knotted along the main metal strip. These knots will fasten the plate settlers at the angle desired.
+5) Attach the wire to base-supports, as seen in Figure X.
+
+![Settlers_v2_in_Design](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Settlers_v2_in_Design.JPG)
+
+Figure 7.Design schematic of plate settlers apparatus showing latching mechanism and spacing between plates.
+
+![Settlers_v2_in_Design_2](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Settlers_v2_in_Design_2.JPG
+
+Figure 8.Design schematic of plate settlers indicating modifiable slots and the tapered edges that prevent plates from slipping into the sedimentation tank.
+
+This design achieves the same purpose as before, but does so without disrupting the flow up the sedimentation tank.
 
 ## Results
-(We have not yet performed any tests, but we will be doing tests in the coming weeks for which we will show results in future report).
+Following fabrication of the plate settlers apparatuses, a major goal of the team was to incorporate all the necessary equipment that was previously lacking or outdated. In particular, the influent and effluent turbidimeters were replaced, ProCoDa method files were updated, and tubing was replaced over the course of the semester to account for several years of unkempt equipment. An initial issue faced was an error on the influent turbidimeter. Upon referring to the User’s Manual and performing a calibration test, the influent turbidimeter was functional. The latest development has been a successful test of simply filling the sedimentation tank with water and ensuring water travels up the tube settlers out of the tank. Some issues to address before moving forward include adjusting for a potential leak in the tubing leading out of the effluent turbidimeter, as well as for water leakage around the floc weir within the tank (this may need to be adjusted to be more flush with the glass walls of the tank). 
 
 ## Analysis
 (We have not yet performed any tests, but we will be doing tests in the coming weeks for which we will show analysis in future report).
