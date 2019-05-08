@@ -132,17 +132,21 @@ Laslty, this team provided useful information in terms of what materials work fo
 ## Future Work
 HRS: Plate Settlers' next steps include performing baseline tests with the plate settlers apparatus. Following observation of these results, HRS: PS will perform subsequent experiments to determine how the effluent turbidity varies with changes in angle of the plates orientation, as well as with the alteration of variables such as number of plates, spacing of plates, and thicknesses of plates. 
 As a majority of HRS: Plate Settler's efforts has gone into refurbishing the graduate-laboratory's sedimentation tank, by the end of the semester the team has been able to set it up, so it is ready for the next team to use. Considering no recent reports or information existed on this beneficial model, HRS documented the ways in which cleaning, pump operation, coding structure, and assembly of the mock-up. Additionally, well-a detailed manual regarding how to operate and run tests in the sedimentation tank was created. This ensured future teams have a better understanding of the designs, allowing more testing to take place.
+
 **[Please include in this document the operation and design of the tank of the HRS by updating the Methods and adding a Manual section]**
 When the testing of HRS: Plate Settlers was completed, there was still a large amount of unknowns regarding their operation, and that falls into the hands of future research. Despite the team's lack of time to carry out experimental-ideas this semester, there are some adjustments and potential variables that the team thinks will make the plate settler apparatus more functional, as well as some problems that need fixing in order to start testing again. The team did not have time to fix every issue with the tank, however, these minor errors can be corrected:
-As a priority, that new team would have to open up the sedimentation tank itself and replace the inner pieces connecting the wier to the tank, due to the fact that some leakage has been noticed across the main section of the tank to the floc weir. 
+
+A. As a priority, that new team would have to open up the sedimentation tank itself and replace the inner pieces connecting the wier to the tank, due to the fact that some leakage has been noticed across the main section of the tank to the floc weir. 
 Adding a second effluent pump to the tube settler with the intention of pumping water out of the tank at a higher upflow velocity. 
 Connecting the plates in the apparatus with two wires across instead of one to make it easier to set the angle at which one wants the plates to be. 
-Placing silicone on the sides of the plates to make them easier to slide in and out, and also providing a much tighter water seal. 
+
+B. Placing silicone on the sides of the plates to make them easier to slide in and out, and also providing a much tighter water seal. 
 Making sure that the latching device on the right side of the tank is not deforming, which would cause the wire, and therefore, the plates to deform. This could be achieved by building it with metal and screws instead of PVC and glue. 
-Finally, after all the problems are fixed, the new team should start experimenting with different kinds of materials, plate thickness, separation between plates, different kinds of wires, angles, etc. In this category, primarily the following concepts still need to be tested:
-1) How does the type of material affect the operation of the settler?
-2) How thin should a channel be before it gets clogged with flocs
-3) How can plates be easily cleaned in their new design [speaking in future tense--no finalized design exists yet, hopefully by the final report there will be some however. If not, this will be removed]**[sounds good]**
+
+C. Finally, after all the problems are fixed, the new team should start experimenting with different kinds of materials, plate thickness, separation between plates, different kinds of wires, angles, etc. In this category, primarily the following concepts still need to be tested:
+  1) How does the type of material affect the operation of the settler?
+  2) How thin should a channel be before it gets clogged with flocs
+  3) How can plates be easily cleaned in their new design [speaking in future tense--no finalized design exists yet, hopefully by the       final report there will be some however. If not, this will be removed]**[sounds good]**
 
 ## Manual [-Addressed LM]
 
