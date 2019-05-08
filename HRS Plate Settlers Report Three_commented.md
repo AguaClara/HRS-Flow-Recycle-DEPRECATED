@@ -1,6 +1,6 @@
 # High Rate Sedimentation: Plate Settlers, Spring 2019
 #### Leena Sen, Carmen Ortega, Luke Meyer
-#### March 16th, 2019
+#### May 8th, 2019
 
 **[Felix here grading. Same thing as last time. After addressing any comments please write within the brackets "-Addressed __" with the individual's initials in the __ space. They will be deleted in the next report, unless it is a comment approving of what you have done. In that case delete it yourself.]**
 
@@ -93,7 +93,7 @@ As a result, the team moved on to fabricating the device themselves. This consis
 
 Figure 7. The second version of settlers as seen from the lab setting.
 
-![Settlers_v2_in_Design_2](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Settlers_v2_in_Design_2.JPG
+![Settlers_v2_in_Design_2](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Settlers_v2_in_Design_2.JPG)
 
 Figure 8. An upclose picture at the plate settlers as the fastening system.
 
