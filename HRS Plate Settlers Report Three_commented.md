@@ -16,11 +16,11 @@ In the AguaClara sedimentation tank setup, a section of PVC piping known as the 
 
 ![SedTank](https://github.com/CarmenOrtega/aguaclara_tutorial/blob/master/ACSedTank.PNG?raw=true)
 
-Figure 1: Design schematic of the sedimentation tank in the AguaClara plants.
+Figure 1. Design schematic of the sedimentation tank in the AguaClara plants.
 
 ![SedTankDiagram](https://github.com/CarmenOrtega/aguaclara_tutorial/blob/master/SedTankDiagram.PNG?raw=true)
 
-Figure 2: Design schematic of experimental apparatus. Influent enters the sedimentation tank from the flocculator via inlet jet tubes of variable size. Downward direction of the influent flow is redirected upward by the semicircular jet reverser bottom geometry..
+Figure 2. Design schematic of experimental apparatus. Influent enters the sedimentation tank from the flocculator via inlet jet tubes of variable size. Downward direction of the influent flow is redirected upward by the semicircular jet reverser bottom geometry..
 
 The HRS team aims to design a tank that will yield an effluent turbidity of no more than 0.3 NTU while maintaining high upflow velocity. Operating at a higher upflow velocity will allow for a greater volume of water processing in a given period of time, which will decrease plant operating costs. However, when operating at a high upflow velocity in lab, the floc blanket is unstable. The blanket is dense near the top of the recirculator, but very thin near the bottom. HRS: Plate Settlers plans to remediate this issue by incorporating a second set of plate settlers within the sedimentation tank itself. As more particles enter through the manifold, flocs at the top of the blanket overflow into the floc hopper or floc weir. The smallest particles which make it past the floc blanket and floc hopper then enter the plate settlers. Plate settlers catch the smallest particles by increasing the horizontal space where particles can settle out. Plate settler length, channel-width (how far apart each plate is from its neighbor), and angle from the horizon determines capture velocity.
 
@@ -28,7 +28,7 @@ In order to ensure floc blanket stability, the team proposes 45&deg; to be the i
 
 ![longest_path](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/longest_path.png)
 
-Figure 3. Lngest possible path of a floc through a sedimentation tube
+Figure 3. Longest possible path of a floc through a sedimentation tube
 
 By increasing the number of plate settlers, and thereby the area in which the flocs can settle, HRS: Plate Settlers intends to increase the capture velocity and therefore achieve a more stabilized floc blanket. In order to test this, a proper model-tank and experimentation system must first be developed. If successful, this will allow future teams to continue researching the potential viability of high upflow velocities in AguaClara plants. Furthermore, progress in the context of plate settlers held significance in two ways: a major improvement for High Rate Sedimentation as a subteam and for the process of flocculation in the overall water treatment process. Such advances would achieve a long-term goal of improving floc blanket stability (and thus improve the entire particle removal process) at both a model and real-life scale.
 
@@ -72,7 +72,7 @@ Figure 5.Design schematic of plate settlers apparatus showing latching mechanism
 
 ![PlateSettlersModel](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Labeled_Mock_2.png)
 
-Figure 6.Design schematic of plate settlers indicating modifiable slots and the tapered edges that prevent plates from slipping into the sedimentation tank.
+Figure 6. Design schematic of plate settlers indicating modifiable slots and the tapered edges that prevent plates from slipping into the sedimentation tank.
 
 **[2 dead links. You need the link to the raw file by opening the image in a new tab.]**
 
@@ -87,33 +87,54 @@ As a result, the team moved on to fabricating the device themselves. This consis
 2) Cut a piece of 1/8 metal wire 400 mm in length. *Note: this length is subject to change based on design specifications.*
 3) String the metal wire through the drilled holes.
 4) Cut smaller wires that can be knotted along the main metal strip. These knots will fasten the plate settlers at the angle desired.
-5) Attach the wire to base-supports, as seen in Figure X.
+5) Attach the wire to base-supports, as seen on both sides of Figure 7 and in the left of Figure 8.
 
 ![Settlers_v2_in_Design](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Settlers_v2_in_Design.JPG)
 
-Figure 7.Design schematic of plate settlers apparatus showing latching mechanism and spacing between plates.
+Figure 7. The second version of settlers as seen from the lab setting.
 
 ![Settlers_v2_in_Design_2](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Settlers_v2_in_Design_2.JPG
 
-Figure 8.Design schematic of plate settlers indicating modifiable slots and the tapered edges that prevent plates from slipping into the sedimentation tank.
+Figure 8. An upclose picture at the plate settlers as the fastening system.
 
-This design achieves the same purpose as before, but does so without disrupting the flow up the sedimentation tank.
+This design achieves the same purpose as before, but does so without disrupting the uplfow of the sedimentation tank. This is achieved through the small profile of the metal wire.
 
 ## Results
-Following fabrication of the plate settlers apparatuses, a major goal of the team was to incorporate all the necessary equipment that was previously lacking or outdated. In particular, the influent and effluent turbidimeters were replaced, ProCoDa method files were updated, and tubing was replaced over the course of the semester to account for several years of unkempt equipment. An initial issue faced was an error on the influent turbidimeter. Upon referring to the User’s Manual and performing a calibration test, the influent turbidimeter was functional. The latest development has been a successful test of simply filling the sedimentation tank with water and ensuring water travels up the tube settlers out of the tank. Some issues to address before moving forward include adjusting for a potential leak in the tubing leading out of the effluent turbidimeter, as well as for water leakage around the floc weir within the tank (this may need to be adjusted to be more flush with the glass walls of the tank). 
+Following fabrication of the plate settlers apparatuses, a major goal of the team was to incorporate all the necessary equipment that was previously lacking or outdated. In particular, the influent and effluent turbidimeters were replaced, ProCoDa method files were updated, and tubing was replaced over the course of the semester to account for several years of unkempt equipment. This replaced tubing consisted of: 
+1) Flocculator tubing
+2) Effluent and Influent Tubing
+3) Tube settler tubing
+4) Clay pump tubing
+5) PACl tubing
+
+Upon running the first trial, an initial issue faced was an error on the influent turbidimeter. Upon referring to the User’s Manual and performing a calibration test, the influent turbidimeter was functional. The latest development has been a successful test of simply filling the sedimentation tank with water and ensuring that water travels up the tube settlers out of the tank. The team considered this a baseline test and proof of concept. From this experiment, the following errors were found:
+1) Leakage across the tank from the floc weir to the floc-bed side.
+2) Leakage around the plate settlers, as the fit is not water-tight.
+
+Lastly, while no tests to compare the second version of plate settlers were performed due to time constraints, these settlers are problematic. This is because of their flexible design, which allows for plate settler deformation over time, even when not in the sedimentation tank.
 
 ## Analysis
-(We have not yet performed any tests, but we will be doing tests in the coming weeks for which we will show analysis in future report).
+Considering the device was properly restroed this semester, a manual was written to explain the operation of this device. Through the baseline testing specified in results, it is clear of what needs to be addressed in order to fix these problems. While fixes for these issues is addressed is Future Work, the consequences of the results found is specified here.
+
+Because there is leakage from the floc weir-to the bed, the upflow velocity was not in line with a theoretical calculation. This led to issues regarding miscalibrated data, etc. Furthermore, the leakage across leads to flocs flowing across the tank rather than up the tank. Considering the goal of this sedimentation tank was to create a floc bed, it proves problematic when its inherent design does not encourage that.
+
+Furthermore, the team notes leakage around the plate settlers. This implies the desing is not water-tight, which was problemtatic in two regards. The first is that flocs can ecscape the bed that is developed, and that allows for flocs that typically would not pass the bed to enter the tube settlers. This was not reflective of the design of the sedimentation tanks in AguaClara plants, so fixing it is a priority. In a similar vein as the previous error, this led to a miscalibrated design, and effluent values were affected.
 
 ## Conclusions
-(We have not yet performed any tests, but we will be doing tests in the coming weeks for which we will show conclusions in future report).
+No conclusions can be made on the current version of plate settlers, for no tests were carried out on the new design. The main focus of the team this semester to ensure the sedimentation tank carried out proper operation. While this goal was difficult to achieve considering no extensive prior documentation existed on the design, reverse-engineering the system proved valuable in this process.
+
+By the end of the term, the team had a functional sedimentation tank with no external leaks, a functional ProCoDA setup, and all the necessary connections. Furthermore, the sedimentation tank has been cleaned both externally and internally, as well as emptied and ready for testing to begin on it.
+
+The second version of plate settlers were not modified, and this allows other teams to observe the past work. Furthermore, future teams can use the model as a mock-up to develop their own standards and ideas for testing. Now that the sedimentaion tank is functional, data and results can be achieved easily and readily. Furthermore, as addressed in the manual, all operations of the tank have been documented.
+
+Laslty, this team provided useful information in terms of what materials work for plate settlers and which do not. This is considering it is now known that ABS plastic does not work well for plate settlers, due to the residue. This implies future teams should continue testing with hand-fabricated designs.
 
 ## Future Work
 HRS: Plate Settlers' next steps include performing baseline tests with the plate settlers apparatus. Following observation of these results, HRS: PS will perform subsequent experiments to determine how the effluent turbidity varies with changes in angle of the plates orientation, as well as with the alteration of variables such as number of plates, spacing of plates, and thicknesses of plates. 
 As a majority of HRS: Plate Settler's efforts has gone into refurbishing the graduate-laboratory's sedimentation tank, by the end of the semester the team has been able to set it up, so it is ready for the next team to use. Considering no recent reports or information existed on this beneficial model, HRS documented the ways in which cleaning, pump operation, coding structure, and assembly of the mock-up. Additionally, well-a detailed manual regarding how to operate and run tests in the sedimentation tank was created. This ensured future teams have a better understanding of the designs, allowing more testing to take place.
 **[Please include in this document the operation and design of the tank of the HRS by updating the Methods and adding a Manual section]**
 When the testing of HRS: Plate Settlers was completed, there was still a large amount of unknowns regarding their operation, and that falls into the hands of future research. Despite the team's lack of time to carry out experimental-ideas this semester, there are some adjustments and potential variables that the team thinks will make the plate settler apparatus more functional, as well as some problems that need fixing in order to start testing again. The team did not have time to fix every issue with the tank, however, these minor errors can be corrected:
-As a priority, that new team would have to open up the sedimentation tank itself and replace some of the inner pieces, due to the fact that some leakage has been noticed across the main section of the tank to the floc weir. 
+As a priority, that new team would have to open up the sedimentation tank itself and replace the inner pieces connecting the wier to the tank, due to the fact that some leakage has been noticed across the main section of the tank to the floc weir. 
 Adding a second effluent pump to the tube settler with the intention of pumping water out of the tank at a higher upflow velocity. 
 Connecting the plates in the apparatus with two wires across instead of one to make it easier to set the angle at which one wants the plates to be. 
 Placing silicone on the sides of the plates to make them easier to slide in and out, and also providing a much tighter water seal. 
@@ -157,17 +178,17 @@ While the clay mixer runs at a constant rate when plugged in, the four pumps can
 
 ![Full_Setup](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Full_Setup.png)
 
-Figure 5. The Operational Setup of the Tank
+Figure 9. The Operational Setup of the Tank
 
 ![Setup_Labeled](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Label_Setup_Labeled.png)
 
-Figure 6. Labeled Components of the Setup
+Figure 10. Labeled Components of the Setup
 
 As for operation of the tank, consider Figure 5 above, which is the full set-up of interest. Within Figure 6, note the placement of each of the pumps and turbidity meters. PACl, Effluent (Tube Settlers), and Influent pumps all require the RPM or mL/minute to be manually set using the calculations found previously. Clay is automatically determined by ProCoDA based on influent readings, as it is the only pump connected to ProCoDA. The computer running ProCoDA is to the left of the set up in Figure 6.
 
 ![Tube_Settler_Setup](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Tube_Settler_Connection.png)
 
-Figure 7. Setup of the Tube Settlers
+Figure 11. Setup of the Tube Settlers
 
 Figure 7 shows the way in which all tube settlers are operated by only one device. As mentioned in Future Work, it is advised for future teams to reconsider this choice and use two pumps to operate the tube settlers. This allows for upflow velocities higher than 1 mm/s.
 
