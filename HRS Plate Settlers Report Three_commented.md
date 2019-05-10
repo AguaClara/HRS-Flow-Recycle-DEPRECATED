@@ -16,19 +16,19 @@ In the AguaClara sedimentation tank setup, a section of PVC piping known as the 
 
 ![SedTank](https://github.com/CarmenOrtega/aguaclara_tutorial/blob/master/ACSedTank.PNG?raw=true)
 
-Figure 1. Design schematic of the sedimentation tank in the AguaClara plants.
+**Figure 1. Design schematic of the sedimentation tank in the AguaClara plants.**
 
 ![SedTankDiagram](https://github.com/CarmenOrtega/aguaclara_tutorial/blob/master/SedTankDiagram.PNG?raw=true)
 
-Figure 2. Design schematic of experimental apparatus. Influent enters the sedimentation tank from the flocculator via inlet jet tubes of variable size. Downward direction of the influent flow is redirected upward by the semicircular jet reverser bottom geometry..
+**Figure 2. Design schematic of experimental apparatus. Influent enters the sedimentation tank from the flocculator via inlet jet tubes of variable size. Downward direction of the influent flow is redirected upward by the semicircular jet reverser bottom geometry.**
 
 The HRS team aims to design a tank that will yield an effluent turbidity of no more than 0.3 NTU while maintaining high upflow velocity. Operating at a higher upflow velocity will allow for a greater volume of water processing in a given period of time, which will decrease plant operating costs. However, when operating at a high upflow velocity in lab, the floc blanket is unstable. The blanket is dense near the top of the recirculator, but very thin near the bottom. HRS: Plate Settlers plans to remediate this issue by incorporating a second set of plate settlers within the sedimentation tank itself. As more particles enter through the manifold, flocs at the top of the blanket overflow into the floc hopper or floc weir. The smallest particles which make it past the floc blanket and floc hopper then enter the plate settlers. Plate settlers catch the smallest particles by increasing the horizontal space where particles can settle out. Plate settler length, channel-width (how far apart each plate is from its neighbor), and angle from the horizon determines capture velocity.
 
-In order to ensure floc blanket stability, the team proposes 45&deg; to be the ideal plate-angle. This is operating under the hypothesis that plate settlers follow the principles that govern particle capture in a tube settler. Henceforth, based on the Figre 3, angle \alpha A is 45&deg;, because this maximizes the distance the floc travels, and that enables an even distribution and long creation of the floc blanket. [-Addressed LM, Kanha said to include hypothesis in introduction]
+In order to ensure floc blanket stability, the team proposes 45&deg; to be the ideal plate-angle. This is operating under the hypothesis that plate settlers follow the principles that govern particle capture in a tube settler. Henceforth, based on the Figre 3, angle alpha A is 45&deg;, because this maximizes the distance the floc travels, and that enables an even distribution and long creation of the floc blanket. [-Addressed LM, Kanha said to include hypothesis in introduction]
 
 ![longest_path](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/longest_path.png)
 
-Figure 3. Longest possible path of a floc through a sedimentation tube
+**Figure 3. Longest possible path of a floc through a sedimentation tube.**
 
 By increasing the number of plate settlers, and thereby the area in which the flocs can settle, HRS: Plate Settlers intends to increase the capture velocity and therefore achieve a more stabilized floc blanket. In order to test this, a proper model-tank and experimentation system must first be developed. If successful, this will allow future teams to continue researching the potential viability of high upflow velocities in AguaClara plants. Furthermore, progress in the context of plate settlers held significance in two ways: a major improvement for High Rate Sedimentation as a subteam and for the process of flocculation in the overall water treatment process. Such advances would achieve a long-term goal of improving floc blanket stability (and thus improve the entire particle removal process) at both a model and real-life scale.
 
@@ -60,7 +60,7 @@ The plates used in the CAD model were PVC plates around 10 cm in length and 1 cm
 
 ![2DDesign](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Setup/20190412_230917.jpg)
 
-Figure 4. rinted design placed inside the testing-tank
+**Figure 4. rinted design placed inside the testing-tank.**
 
 Some further fabrication adjustments are required. 3D printing elicits some new issues, given that the material can produce a surface that could allow flocs to settle and prevent water from flowing through the apparatus. As an alternative design that HRS: Plate Settlers also worked on is a model wherein threaded rods are bound to the floc weir and inlet tube. Therefore, the plates were to be bound to either threaded rod. This allowed for less surface area for floc to settle on besides the plates.
 
@@ -68,11 +68,11 @@ Models for the plate settlers will be redesigned to test influences of plate wid
 
 ![PlateSettlers](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Labeled_Mock%20(1).png)
 
-Figure 5.Design schematic of plate settlers apparatus showing latching mechanism and spacing between plates.
+**Figure 5.Design schematic of plate settlers apparatus showing latching mechanism and spacing between plates.**
 
 ![PlateSettlersModel](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Labeled_Mock_2.png)
 
-Figure 6. Design schematic of plate settlers indicating modifiable slots and the tapered edges that prevent plates from slipping into the sedimentation tank.
+**Figure 6. Design schematic of plate settlers indicating modifiable slots and the tapered edges that prevent plates from slipping into the sedimentation tank.**
 
 **[2 dead links. You need the link to the raw file by opening the image in a new tab.]**
 
@@ -91,11 +91,11 @@ As a result, the team moved on to fabricating the device themselves. This consis
 
 ![Settlers_v2_in_Design](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Settlers_v2_in_Design.JPG)
 
-Figure 7. The second version of settlers as seen from the lab setting.
+**Figure 7. The second version of settlers as seen from the lab setting.**
 
 ![Settlers_v2_in_Design_2](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Settlers_v2_in_Design_2.JPG)
 
-Figure 8. An upclose picture at the plate settlers as the fastening system.
+**Figure 8. An upclose picture at the plate settlers as the fastening system.**
 
 This design achieves the same purpose as before, but does so without disrupting the uplfow of the sedimentation tank. This is achieved through the small profile of the metal wire.
 
@@ -182,17 +182,17 @@ While the clay mixer runs at a constant rate when plugged in, the four pumps can
 
 ![Full_Setup](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Full_Setup.png)
 
-Figure 9. The Operational Setup of the Tank
+**Figure 9. The Operational Setup of the Tank.**
 
 ![Setup_Labeled](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Label_Setup_Labeled.png)
 
-Figure 10. Labeled Components of the Setup
+**Figure 10. Labeled Components of the Setup.**
 
 As for operation of the tank, consider Figure 5 above, which is the full set-up of interest. Within Figure 6, note the placement of each of the pumps and turbidity meters. PACl, Effluent (Tube Settlers), and Influent pumps all require the RPM or mL/minute to be manually set using the calculations found previously. Clay is automatically determined by ProCoDA based on influent readings, as it is the only pump connected to ProCoDA. The computer running ProCoDA is to the left of the set up in Figure 6.
 
 ![Tube_Settler_Setup](https://raw.githubusercontent.com/AguaClara/HRS-Flow-Recycle/master/Images/Archive/Tube_Settler_Connection.png)
 
-Figure 11. Setup of the Tube Settlers
+**Figure 11. Setup of the Tube Settlers.**
 
 Figure 7 shows the way in which all tube settlers are operated by only one device. As mentioned in Future Work, it is advised for future teams to reconsider this choice and use two pumps to operate the tube settlers. This allows for upflow velocities higher than 1 mm/s.
 
@@ -203,6 +203,7 @@ The pumps and water should be turned on in the below order, for this procedure a
 4) Turn on the mixer by plugging it into the wall.
 5) Turn on the Clay Pump.
 6) Turn on the Tube Settler Pump to 94 rpm.
+7) Ensure no twisted and constrained portions exist in the tubing.
 The device will now operate with standard procedures and for 1 mm/s of upflow through the sedimentation tank.
 
 To power down the device, ensure that one first moves the blue valve mentioned in step 1 to a perpendicular position against the tube. After that, shut down of all devices can occur in any order.
