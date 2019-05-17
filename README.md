@@ -10,6 +10,10 @@
  * Carmen Ortega Salan (co276@cornell.edu)
  * Luke Meyer (lcm227@cornell.edu)
  
+ [Final Presentation](https://www.youtube.com/watch?v=bVqRNgwokGc)
+
+[Final Presentation Slides](https://github.com/AguaClara/HRS-Flow-Recycle/blob/master/HRS_%20Plate%20Settlers%20Final%20Presentation.pdf)
+ 
 [Symposium Presentation](https://docs.google.com/presentation/d/1G6UFA14yVlhwdYGLxfDjZUMlG4fVSUYUUXWI4LGjcDA/edit#slide=id.g346a079b2f_0_0)</br>
 
 ### Fall 2018 (HRS: Flow Recycle - [Go Here for HRS: Bottom Geometry](https://github.com/AguaClara/HRS-Bot-Geo))
